@@ -1,35 +1,32 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="もっとも重要なことは…"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「最も重要なことは…」[l][r]
 
-メロスは激怒した。[l][r]
+先月豪遊しすぎて金欠になった大学生H君。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+何としてでもお小遣いを稼がないと今月はもやし生活確定だ。[l][r]
 
-(中略)[l][r]
+でも…どう稼げば…？[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_gamble] →ギャンブルで一発逆転 [endlink][r]
+[link target=*tag_run] →まじめにアルバイトを見つけて働く [endlink][r]
 [s]
 
-*tag_sleep
+*tag_gamble
 
 [cm]
 
+
+H君は競馬で3連単に全財産を賭けた。[l][r]
+レース当日…[l][r]
+1番人気～3番人気までが順当にゴールインし、純粋だったH君は見事勝つことができた！！
 [bg storage=sleep.jpg time=500]
-
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
-
-【 BAD END 】[l][cm]
+【 GOOD END 】[l][cm]
 
 [jump target=*start]
 
@@ -38,9 +35,9 @@
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+H君は疾風のごとく走りまわって日雇いの力仕事をし続けた。[l][r]
+その結果、疲れて暴飲暴食したH君は食費＞賃金となり、ついに借金をしてしまった。[r]
 
-【 GOOD END 】[l][cm]
+【 BAD END 】[l][cm]
 
 [jump target=*start]
